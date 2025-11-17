@@ -1,8 +1,8 @@
 class Crestic < Formula
   desc "Wrapper around restic with YAML-configured jobs"
   homepage "https://crestic.kolodka.fyi/"
-  url "https://github.com/alexander-kolodka/crestic/archive/refs/tags/v0.0.4.tar.gz"
-  sha256 "6ae2963b3c0aede9a6c5f2e428385516b1689e08de0334e0adfb4b2c2982dcb8"
+  url "https://github.com/alexander-kolodka/crestic/archive/refs/tags/v0.0.5.tar.gz"
+  sha256 "1d6b0a54707eaf308d378225983f319da5396f1f484862708b6d7b597afcd241"
   license "MIT"
 
   depends_on "go" => :build
