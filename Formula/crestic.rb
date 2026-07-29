@@ -6,6 +6,7 @@ class Crestic < Formula
   license "MIT"
 
   depends_on "go" => :build
+  depends_on "restic"
 
   def install
     ldflags = %W[
